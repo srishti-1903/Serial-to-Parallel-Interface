@@ -50,7 +50,7 @@ begin
   end
 end
 
-GAURI_decoder_5b d1(.SEL(scansel), .OUT(decoder_out));
+Decoder5x32 d1(.SEL(scansel), .OUT(decoder_out));
 
 always @(negedge Master_clk or negedge RESET) 
 begin
