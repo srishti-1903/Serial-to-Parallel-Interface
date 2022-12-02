@@ -23,7 +23,7 @@
 //Verilog HDL for "TEST", "spi_data_gen" "functional"
 
 
-module FPGA_toSPI2(input SCLK, 
+module FPGA_toSPI(input SCLK, 
                      input RST,
                      output reg GRST,
                      output reg SIN, 
